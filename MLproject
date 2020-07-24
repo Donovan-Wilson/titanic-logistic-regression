@@ -4,6 +4,6 @@ conda env: conda.yaml
 
 entry points:
   main:
-    command: "logistic-regression.ipynb"
+    command: "logistic-regression.py"
    
     
