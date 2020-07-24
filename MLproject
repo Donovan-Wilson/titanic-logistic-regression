@@ -1,0 +1,9 @@
+name: logistic-regression
+
+conda env: conda.yaml
+
+entry points:
+  main:
+    command: "logistic-regression.ipynb"
+   
+    
