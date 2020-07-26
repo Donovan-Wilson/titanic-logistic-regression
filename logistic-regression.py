@@ -81,7 +81,7 @@ print("Y Test : ", str(y_test.shape) )
 
 
 mlflow.set_tracking_uri("http://localhost:5000")
-experiment_name = "test"
+experiment_name = "titanic-prediction"
 mlflow.set_experiment(experiment_name)
 with mlflow.start_run():
     #Build and Train Model
